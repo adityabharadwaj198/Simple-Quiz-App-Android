@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:id="@+id/activity_quiz"
+    tools:context="com.example.android.quizapp.QuizActivity"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dp"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/score_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/score" />
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUESTION COMES HERE"
+        android:id="@+id/question"
+        android:textSize="30sp"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24sp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="button1"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button2"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button3"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24sp"
+
+        />
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIT"
+        android:background="#871C1C"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24sp"
+        />
+
+
+</LinearLayout>
